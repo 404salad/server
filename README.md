@@ -30,7 +30,6 @@ Respond with 404 Not Found and 403 Forbidden when applicable (RFC 7231 §6.5.3, 
 Default to persistent connections (RFC 7230 §6.3), but you can simplify by always closing with Connection: close.
 
 Not yet implemented 
-=== 
 
 Concurrency → Right now,  processes each connection in a blocking loop. If one client is slow, others wait. A “concurrent server” would need thread::spawn, async, or a threadpool.
 
