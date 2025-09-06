@@ -14,7 +14,7 @@ Ignore unknown headers (don’t choke).
 Recognize Connection: close (RFC 7230 §6.1) and honor it (don’t keep socket open).
 
 3. Response Formatting
-Status line: HTTP/1.1 <code> <reason> (RFC 7230 §3.1.2).
+Status line: HTTP/1.1 \<code\> \<reason\> (RFC 7230 §3.1.2).
 Required headers:
 Date (MUST, RFC 7231 §7.1.1.2). i checked its not a must!!! my valid reason in speedddd (also timestamps)
 Content-Length (MUST if not chunked, RFC 7230 §3.3.2). ok did it but its a should
